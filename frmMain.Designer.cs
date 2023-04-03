@@ -24,6 +24,8 @@
             this.btn_Save = new System.Windows.Forms.Button();
             this.btn_Exit = new System.Windows.Forms.Button();
             this.txtbox_Readme = new System.Windows.Forms.TextBox();
+            this.chkbox_Program = new System.Windows.Forms.CheckBox();
+            this.chkbox_AppConfig = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lbl_Title
@@ -95,11 +97,37 @@
             this.txtbox_Readme.Size = new System.Drawing.Size(730, 482);
             this.txtbox_Readme.TabIndex = 6;
             // 
+            // chkbox_Program
+            // 
+            this.chkbox_Program.AutoSize = true;
+            this.chkbox_Program.Checked = true;
+            this.chkbox_Program.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkbox_Program.Location = new System.Drawing.Point(249, 89);
+            this.chkbox_Program.Name = "chkbox_Program";
+            this.chkbox_Program.Size = new System.Drawing.Size(130, 19);
+            this.chkbox_Program.TabIndex = 7;
+            this.chkbox_Program.Text = "Exclude Program.cs";
+            this.chkbox_Program.UseVisualStyleBackColor = true;
+            // 
+            // chkbox_AppConfig
+            // 
+            this.chkbox_AppConfig.AutoSize = true;
+            this.chkbox_AppConfig.Checked = true;
+            this.chkbox_AppConfig.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkbox_AppConfig.Location = new System.Drawing.Point(249, 114);
+            this.chkbox_AppConfig.Name = "chkbox_AppConfig";
+            this.chkbox_AppConfig.Size = new System.Drawing.Size(205, 19);
+            this.chkbox_AppConfig.TabIndex = 8;
+            this.chkbox_AppConfig.Text = "Exclude ApplicationConfiguration";
+            this.chkbox_AppConfig.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 658);
+            this.Controls.Add(this.chkbox_AppConfig);
+            this.Controls.Add(this.chkbox_Program);
             this.Controls.Add(this.txtbox_Readme);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Save);
@@ -123,5 +151,7 @@
         private Button btn_Save;
         private Button btn_Exit;
         private TextBox txtbox_Readme;
+        private CheckBox chkbox_Program;
+        private CheckBox chkbox_AppConfig;
     }
 }

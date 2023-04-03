@@ -41,7 +41,10 @@ namespace ReadmeGenerator_Desktop
         {
             if (filePath != "")
             {
-                readmeString = Generator.CreateDoc(filePath);
+                bool excludeProgram = chkbox_Program.Checked;
+                bool excludeAppConfig = chkbox_AppConfig.Checked;
+                
+                readmeString = Generator.CreateDoc(filePath, excludeProgram, excludeAppConfig);
                 txtbox_Readme.Text = readmeString;
             }
         }
