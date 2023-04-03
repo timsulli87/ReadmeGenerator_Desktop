@@ -108,24 +108,3 @@ Name
 
 Summary
 <ul><li>Event summary</li></ul>
-<br>
-
-## **Program**
-
-Desktop version of the Readme Generator app. The app allows the user to load an XML documentation file, transform it into a readme.md file, and save the output file.
-
-<br>
-
-## **ApplicationConfiguration**
-
-Bootstrap the application configuration.
-
-
-### **Functions**
-
-Initialize
-<ul>
-<li>
-Bootstrap the application as follows:                          Application.EnableVisualStyles();             Application.SetCompatibleTextRenderingDefault(false);             Application.SetHighDpiMode(HighDpiMode.SystemAware);
-</li>
-</ul>
