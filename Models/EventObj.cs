@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ReadmeGenerator_Desktop.Models
 {
     /// <summary>
-    /// Class the represents the event objects of the XML document file.
+    /// Class the represents the event elements of the XML document file.
     /// </summary>
     internal class EventObj
     {

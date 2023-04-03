@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace ReadmeGenerator_Desktop.Models
 {
     /// <summary>
-    /// Class the represents the class objects of the XML document file.
-    /// The Methods, Properties, and Events class properties are lists of class objects of their corresponding classes.
+    /// Class the represents the class elements of the XML document file.
+    /// The Methods, Properties, and Events class properties are lists of class objects of their corresponding elements.
     /// </summary>
     internal class ClassObj
     {
